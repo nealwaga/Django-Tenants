@@ -94,11 +94,11 @@ WSGI_APPLICATION = 'project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django_tenants.postgresql.backends',
+        'ENGINE': 'django_tenants.postgresql_backend',
         'NAME': 'client',
         'USER': 'neal',
         'PASSWORD':'',
-        'HOST': 'db',
+        #'HOST': 'db',
     }
 }
 
